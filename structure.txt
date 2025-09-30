@@ -1,0 +1,7 @@
+  Kanak Verma_IBM_INTERNSHIP_PROJECT/
+__|
+├── index.html        # Core HTML file (Structure & Content)
+├── style.css         # All CSS styles (Design/Look)
+├── script.js         # All JavaScript logic (Interactivity/Functionality)
+├── README.md         # Project Documentation and Summary
+└── .gitignore        # Specifies files/folders to be ignored by Git

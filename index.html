@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanak Verma | Professional Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<header>
+  <h1>Kanak Verma</h1>
+  <i class="fas fa-bars" id="hamburger"></i>
+  <nav>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#achievements" class="nav-link">Achievements</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#languages-interests" class="nav-link">Languages</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <button id="modeToggle"><i class="fas fa-moon"></i></button>
+</header>
+
+<section class="hero">
+<a href="https://ibb.co/7tp4MwqN"><img src="https://i.ibb.co/Zzgm4n01/Gemini-Generated-Image-ffmhndffmhndffmh.png" alt="Gemini-Generated-Image-ffmhndffmhndffmh" border="0"></a>
+  <h2>Kanak Verma</h2>
+  <p class="roles">Full Stack Developer | Data Science Student (2023–2027)</p>
+  <p>Near Biharo Mandir, Kazi Ki Sarai, Moradabad | 7983639253<br>
+       <a href="mailto:kanak0205mbd@gmail.com" style="color:#fff;text-decoration:underline;">kanak0205mbd@gmail.com</a>
+  </p>
+  <div style="margin-top:1rem;">
+    <a class="btn" href="https://github.com/kanak-verma-developer/AI-vertual-interviewer" target="_blank">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/kanak-verma-b50730368" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about">
+    <a href="https://ibb.co/v4nXpF7M"><img src="https://i.ibb.co/tprLgG71/Gemini-Generated-Image-e1dnbee1dnbee1dn-3.png" alt="ABOUT KANAK VERMA" border="0"></a>
+    <div>
+      <p>"I am passionate about creating interactive and user-friendly web applications. I enjoy exploring new technologies and applying them to solve real-world problems. In my free time, I contribute to open-source projects and experiment with UI/UX designs."</p>
+      <button class="btn"><a href="https://drive.google.com/file/d/1GSAteIijhWxJIjhmHWtevb-3QnWdCXoh/view?usp=sharing" download style="color:#0f62fe;text-decoration:none;">Download Resume</a></button>
+    
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Key Skills</h2>
+  <div class="skills-grid">
+    <div class="skill"><h3>Front-End</h3><div class="progress"><div style="width:95%"></div></div><p>HTML, CSS, JavaScript, React.js, Tailwind CSS</p></div>
+    <div class="skill"><h3>Back-End</h3><div class="progress"><div style="width:85%"></div></div><p>Node.js, Python (Django/Flask)</p></div>
+    <div class="skill"><h3>Tools & Platforms</h3><div class="progress"><div style="width:80%"></div></div><p>Git, GitHub, REST APIs</p></div>
+    <div class="skill"><h3>Core Skills</h3><div class="progress"><div style="width:90%"></div></div><p>Debugging, Problem-Solving, Team Collaboration</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects & Mini-Projects</h2>
+  <div class="projects">
+    <div class="project" data-title="AI Virtual Interview" data-desc="Developed a simple AI-based virtual interview system using HTML, CSS, and JavaScript to simulate interview questions and answers.">
+      <a href="https://ibb.co/N6B518M4"><img src="https://i.ibb.co/PZHKT7dS/0x0.webp" alt="0x0" border="0"></a>
+       <h3>AI Virtual Interview (Mini Project)</h3>
+<p>The AI Virtual Interview (Mini Project) is an innovative solution designed to help students and professionals prepare for real-world interviews using artificial intelligence. This project simulates a live interview environment where users can interact with a virtual interviewer through voice or text. It analyzes responses, communication style, and confidence level to provide constructive feedback. The system leverages natural language processing (NLP) and machine learning techniques to evaluate answers, identify strengths, and highlight areas for improvement. By offering a personalized and interactive experience, the project aims to reduce interview anxiety, enhance communication skills, and equip users with valuable insights for career success.</p>
+
+      <div class="overlay">View Project</div>
+    </div>
+    <div class="project" data-title="SecureShare – Data Leakage Prevention" data-desc="Working on a secure document sharing web application with role-based access control, expiring links, and audit trails to prevent unauthorized redistribution of sensitive data.">
+      <a href="https://ibb.co/VP2DfrQ"><img src="https://i.ibb.co/TFmR9pb/A-Guide-to-Data-Leakage-and-How-Data-Loss-Prevention-DLP-Tools-Help-1.jpg" alt="A-Guide-to-Data-Leakage-and-How-Data-Loss-Prevention-DLP-Tools-Help-1" border="0"></a>
+      <h3>SecureShare – Data Leakage Prevention System</h3>
+<p>Currently developing this industry-level project as a Web Developer and Data Science student, with around 40% completion. The project focuses on creating a secure document-sharing platform that ensures sensitive data is protected through role-based access control, expiring links, and audit trails. I am actively working on implementing advanced security features, integrating backend APIs, and improving the user interface to provide a seamless and reliable experience. This project allows me to apply both my web development and data science skills in a real-world scenario while learning best practices for data security and privacy.</p>
+
+
+      <div class="overlay">View Project</div>
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="projectModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+<section id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Frontend Intern at IBM (Remote)</h3>
+      <p>August 2025 - October 2025</p>
+      <ul>
+        <li>Contributed to responsive UI design using HTML, CSS, JavaScript, React.js, and Tailwind CSS.</li>
+        <li>Collaborated on projects using Git/GitHub and learned about agile teamwork.</li>
+        <li>Exposure to back-end integration with Node.js and Python (Django/Flask) for handling APIs.</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+  <h3>Active Industry Engagement & Tech Event Participation</h3>
+  <p>Various Dates | Ghaziabad & India Expo Mart, Noida</p>
+  <ul>
+    <li>Actively attended major **AI/Data Science-focused conferences and exhibitions**, showcasing a strong commitment to learning industry trends.</li>
+    <li>Gained practical exposure to cutting-edge technologies, including **IoT, Cloud Computing, and advanced data visualization** methods.</li>
+    <li>Networked with professionals and explored the real-world application of **Full Stack and Data Science** principles, demonstrating initiative beyond academic coursework.</li>
+  </ul>
+</div>
+    <div class="timeline-item">
+      <h3>B.Tech in Data Science</h3>
+      <p>September 2023 - Present | Moradabad Institute of Technology</p>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2 class="section-title">Certifications & Achievements</h2>
+  <div class="carousel">
+    <a href="https://ibb.co/DHT1jhdd"><img src="https://i.ibb.co/Hf3K96ZZ/C-cisco-certificate.jpg" alt="C-cisco-certificate" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+    <a href="https://ibb.co/kgxn2jYn"><img src="https://i.ibb.co/6Rmh0z6h/C-badge.jpg" alt="C-badge" border="0"></a>
+    <a href="https://ibb.co/LdZ7hxXH"><img src="https://i.ibb.co/r2wrfxRN/IBM.jpg" alt="IBM" border="0"></a>
+    <a href="https://ibb.co/VccgvmjK"><img src="https://i.ibb.co/7ddnG4Y9/Edureka-Internship-Certificate.jpg" alt="Edureka-Internship-Certificate" border="0"></a>
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/tpCDhrGw/Screenshot-2025-09-30-005032.png" alt="Screenshot-2025-09-30-005032" border="0"></a>
+    <a href="https://ibb.co/cXbj2BFr"><img src="https://i.ibb.co/gFvxt2TR/Screenshot-2025-09-30-005625.png" alt="Screenshot-2025-09-30-005625" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+    <a href="https://ibb.co/SD85Cwzs"><img src="https://i.ibb.co/vCGVn4Sw/technovation-cert.jpg" alt="technovation-cert" border="0"></a>
+  </div>
+</section>
+
+<section id="languages-interests">
+  <h2 class="section-title">Languages & Interests</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:900px;margin:auto;">
+    
+    <div>
+      <h3>Languages</h3>
+      <p>Programming: Python, JavaScript</p>
+      <p>Spoken: English (Fluent), Hindi (Native)</p>
+    </div>
+<a href="https://ibb.co/nN0qvjyK"><img src="https://i.ibb.co/Q3c7RMVx/language.jpg" alt="language" border="0"></a>
+    <div>
+      <h3>Interests</h3>
+      <p>UI/UX Design and Creative Problem Solving</p>
+      <p>Cybersecurity and Emerging Technologies</p>
+      <p>Software Tools: VS Code, Postman</p>
+    </div>
+<a href="https://ibb.co/SDYFtjpb"><img src="https://i.ibb.co/rK8DxjJY/intrust.jpg" alt="intrust" border="0"></a>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Kanak Verma | All Rights Reserved</p>
+  <div class="social-links">
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-behance"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
